@@ -136,6 +136,9 @@
             if (options.prepend != null) {
               val = "" + options.prepend + val;
             }
+            if(options.noSeparator === false || !options.noSeparator){
+				val = addCommasToInteger(val.toString());
+			}			
             if (options.append != null) {
               val = "" + val + options.append;
             }
