@@ -1,5 +1,6 @@
 {
-  "name": "angular-fcsa-number",
+  "name": "angular-fcsa-number-extended
+  ",
   "version": "1.5.4",
   "authors": [
     "Paul Yoder <paulyoder@gmail.com>"
@@ -14,7 +15,7 @@
     "validate"
   ],
   "license": "Apache V2",
-  "homepage": "https://github.com/FCSAmericaDev/angular-fcsa-number",
+  "homepage": "https://github.com/aplus01/angular-fcsa-number-extended",
   "ignore": [
     "**/.*",
     "**/*.coffee",
