@@ -1,4 +1,4 @@
-/*! angular-fcsa-number (version 1.5.3) 2014-10-17 */
+/*! angular-fcsa-number (version 1.5.6) 2017-04-19 */
 (function() {
   var fcsaNumberModule,
     __hasProp = {}.hasOwnProperty;
@@ -132,7 +132,6 @@
               return val;
             }
             ngModelCtrl.$setValidity('fcsaNumber', true);
-            val = addCommasToInteger(val.toString());
             if (options.prepend != null) {
               val = "" + options.prepend + val;
             }
